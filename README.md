@@ -9,4 +9,7 @@ Este repositório contém a especificação de um Agente de IA projetado para tr
 
 ## 🚀 Como testar este Agente
 
-Você pode usar as instruções contidas no `AGENTS.md` como um **System Prompt** em ferramentas de IA (como ChatGPT, Claude, Gemini ou no próprio playground da OpenAI/Google AI Studio) para ver a IA reescrever mensagens em tempo real.
+Este projeto segue a especificação `AGENTS.md`. Para testá-lo, você pode:
+
+1. **Usar um Harness de Agentes compatível:** Abra este repositório em um harness de execução de agentes (como Claude Code, Antigravity, Gemini CLI, Cursor ou Codex). O harness lerá o arquivo `AGENTS.md` automaticamente ao iniciar e assumirá a personalidade do assistente FYS.
+2. **System Prompt Manual:** Copie as regras e exemplos contidos no `AGENTS.md` e cole-os como o System Prompt em plataformas de IA como o ChatGPT, Claude.ai ou Google AI Studio.
